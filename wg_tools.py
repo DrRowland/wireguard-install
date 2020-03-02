@@ -9,8 +9,8 @@ class WG(object):
    def __init__(self):
       tools = SSHTools(DOServer(KeyStore()))
       tools.install_wireguard()
-      tools.allow_password_login()
-      tools.add_user('username', 'changeme')
+      #tools.allow_password_login()
+      #tools.add_user('username', 'changeme')
       tools.sftp('get ./wg0-client.conf')
       Path('./wg0-client.conf').rename('/etc/wireguard/wg0-client.conf')
       self.tools = tools
