@@ -1,5 +1,5 @@
 # WireGuard auto-installer
-# based on angristan/wireguard-install
+(based on angristan/wireguard-install)
 
 Will spin up a DigitalOcean server and install and configure WireGuard.
 It then configures your local (client) computer to use this VPN.
