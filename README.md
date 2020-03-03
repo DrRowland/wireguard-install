@@ -10,7 +10,7 @@ Assumes you are using **Ubuntu** and have already installed WireGuard.
 * This requires python-digitalocean, I recommend a virtualenv.
 * Also, resolvconf (sudo apt update && sudo apt install resolvconf)
 * You need to put your DigitalOcean API personal access token in secret.py
-* Then run ./demo.py as root.
+* Then run python ./demo.py as root.
   
 ### N.B. These scripts are for testing purposes only! It is important to manually check all DigitalOcean instances created have been destroyed (or you will be paying for them!).  
 ### Also, it's possible these scripts may mess-up your network config, so use at your own risk!
