@@ -1,5 +1,6 @@
 # WireGuard On-Demand (DigitalOcean)
 ### (based on angristan/wireguard-install)
+###### https://angristan.xyz/how-to-setup-vpn-server-wireguard-nat-ipv6/
   
 Will spin up a DigitalOcean server and install and configure WireGuard.  
 It then configures your local (ubuntu client) computer to use this VPN.  
