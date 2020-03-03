@@ -1,4 +1,4 @@
-# WireGuard auto-installer
+# WireGuard On-Demand (DigitalOcean)
 ### (based on angristan/wireguard-install)
   
 Will spin up a DigitalOcean server and install and configure WireGuard.  
