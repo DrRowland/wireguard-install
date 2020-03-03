@@ -2,7 +2,7 @@
 ### (based on angristan/wireguard-install)
   
 Will spin up a DigitalOcean server and install and configure WireGuard.  
-It then configures your local (client) computer to use this VPN.  
+It then configures your local (ubuntu client) computer to use this VPN.  
   
 Assumes you are using **Ubuntu** and have already installed WireGuard.  
 (https://www.wireguard.com/install/)  
